@@ -1,0 +1,73 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #F9FBE7;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+@media screen and (max-width: 600px) {
+  #menu {
+    display: none!important;
+    width: 100%!important;
+  }
+}
+.react-grid-item {
+  overflow:hidden!important;
+  border-radius:15px 15px 10px 10px!important;
+}
+
+.react-grid-item .blockHead{
+  border-radius:15px 15px 0px 0px!important;
+
+}
+
+@media screen and (max-width: 800px) {
+  .react-grid-layout {
+    width: 100%!important;
+    margin: 5px 0px 5px 0px!important;
+
+  }
+
+}
+td{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.tbhead,td{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align:center!important;
+}
+
+.tbhead,th{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align:center!important;
+}
+.performance,td{
+  height: 32px !important;
+  text-align:center!important;
+
+}
+.txbarchart{
+  font-size: 13px;
+}
+
+a{
+  text-decoration: none
+}
